@@ -12,7 +12,7 @@ const Home = () => {
         <div>
             <Helmet>
                 <title>Bistro Boss | Home</title>
-                <link rel="canonical" href="https://www.tacobell.com/" />
+              
             </Helmet>
             <Banner></Banner>
             <Cetagorys></Cetagorys>

@@ -3,12 +3,13 @@ import { Link } from "react-router-dom";
 const Header = () => {
     const navOptions = <>
         <li><Link to='/'>Home</Link></li>
-        <li><Link to='/menu'>Menu</Link></li>
+        <li><Link to='/menu'>Our Menu</Link></li>
+        <li><Link to='/order/SALAD'>Order Food</Link></li>
         
     </>
     return (
         <>
-            <div className="navbar fixed z-10  bg-opacity-30 max-w-screen-xl bg-black text-white ">
+            <div className="navbar fixed z-10  bg-opacity-30 max-w-screen-xl bg-black lg:text-white ">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
